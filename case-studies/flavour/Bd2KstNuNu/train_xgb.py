@@ -24,7 +24,7 @@ import utils as ut
 
 def run(vars):
 
-    #Bc -> tau nu signal
+    #Bd -> Kst nu nu signal
     if(vars=="normal"):
         vars_list = train_vars
     elif(vars=="vtx"):
