@@ -24,6 +24,7 @@ pip3 install --user zfit
 pip3 install --user xgboost
 pip3 install --user root-pandas
 pip3 install --user scikit-learn
+pip3 install --user snakemake
 
 export PYTHONPATH=${1}/.local/lib/python3.7/site-packages:$PYTHONPATH
 
