@@ -1,0 +1,1 @@
+See `FCCAnalyses/examples/FCCee/flavour/b2snunu/README.md` for all the details about the b2snunu analysis.
