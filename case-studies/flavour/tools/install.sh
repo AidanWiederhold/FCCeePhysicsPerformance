@@ -18,12 +18,13 @@ rm get-pip.py
 echo "> getting tools for local running"
 pip3 install -U setuptools --user
 pip3 install --user seaborn
-pip3 install --user uproot
+pip3 install --user uproot==4.2.3
 pip3 install --user awkward
 pip3 install --user zfit
 pip3 install --user xgboost
 pip3 install --user scikit-learn
 pip3 install --user particle
+pip3 install --user snakemake
 
 export PYTHONPATH=${1}/.local/lib/python3.9/site-packages:$PYTHONPATH
 
